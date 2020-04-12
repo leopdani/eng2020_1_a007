@@ -15,6 +15,7 @@ public class NoticiarioAssina extends Noticiario {
 		System.out.println("-----------------------------------------");
 	}
 
+	
 	@Override
 	public void consomeNoticia(String textoNoticia, int dia, int mes, String topico) {
 		this.notificaNoticia(textoNoticia, dia, mes, topico);
